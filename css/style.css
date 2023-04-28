@@ -42,6 +42,7 @@ body {
 */
 .header-cont {
   display: flex;
+  gap: 40px;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -170,6 +171,7 @@ body {
 
 .menu {
   color: var(--color-navy-blue);
+  display: flex;
 }
 
 .lisl-feature {
@@ -202,7 +204,9 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-
+.list-image {
+  display: flex;
+}
 /**
   |============================
   | Section Our Team 3
@@ -212,6 +216,12 @@ body {
   background-color: var(--color-cloud);
   padding: 120px 0;
 }
+
+.list-about {
+  display: flex;
+  gap: 24px;
+}
+
 .team-list {
   background-color: var(--color-white);
   width: calc((100% - 72) / 4);
