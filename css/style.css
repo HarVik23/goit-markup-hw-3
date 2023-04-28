@@ -155,6 +155,7 @@ body {
   height: 56px;
   margin: 0 auto;
   display: inline block;
+  
 }
 
 .buton-hero:hover {
@@ -302,7 +303,9 @@ body {
   | Button
   |============================
 */
-
+.buton-menu {
+  display: inline-block;
+}
 .about-buton {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -327,6 +330,17 @@ body {
   | Section services
   |============================
 */
+
+.services-list {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;.
+}
+
+.services-card {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
 .title-portfolio {
   color: var(--color-navy-blue);
   font-family: "Roboto";
