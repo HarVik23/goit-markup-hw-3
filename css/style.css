@@ -20,7 +20,7 @@ body {
   font-style: normal;
   font-weight: 500;
 }
-.img {
+img {
   display: block;
 }
 .link {
@@ -225,8 +225,8 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+
   margin-bottom: 72px;
-  margin-bottom: 8px;
 }
 .list-image {
   display: flex;
@@ -358,6 +358,7 @@ body {
   font-size: 16px;
   padding: 12px 24px;
   border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
 }
 
 .about-buton:hover,
