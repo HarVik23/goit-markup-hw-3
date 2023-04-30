@@ -178,6 +178,10 @@ img {
   | Section Feature 2
   |============================
 */
+.list-feature-l {
+  width: calc((100% - 72px) / 4);
+}
+
 .section-feature {
   padding: 120px 0;
 }
@@ -202,9 +206,6 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.5;
   margin-bottom: 8px;
-}
-.list-feature-l {
-  width: calc((100% - 72px) / 4);
 }
 
 /**
