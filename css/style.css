@@ -178,17 +178,17 @@ img {
   | Section Feature 2
   |============================
 */
-.list-feature-l {
-  flex-basis: calc((100% - 72px) / 4);
-}
 
 .section-feature {
   padding: 120px 0;
 }
 .menu {
-  color: var(--color-navy-blue);
   display: flex;
   gap: 24px;
+}
+
+.list-feature-l {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .lisl-feature {
