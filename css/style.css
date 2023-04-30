@@ -179,7 +179,7 @@ img {
   |============================
 */
 .list-feature-l {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-feature {
@@ -226,7 +226,6 @@ img {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-
   margin-bottom: 72px;
 }
 .list-image {
